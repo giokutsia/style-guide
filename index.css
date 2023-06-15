@@ -1,0 +1,149 @@
+body{
+   width: 1440px; 
+   margin: 0px auto;
+}
+.header {
+    width: 1440px;
+    height: 248px;
+    background-color: #E64B2F;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* identical to box height, or 80px */
+  
+}
+h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 125%;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+h2 {
+    margin-left: 94px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+
+    /* or 36px */
+
+    /* Main Color/Black */
+    color: #000929;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 276px);
+    grid-gap: 32px;
+    margin: 72px auto;
+    width: 1440px;
+    margin-left: 94px;
+   
+  }
+  
+  .grid-item {
+    position: relative;
+    height: 160px;
+    border-radius: 16px;
+  }
+  .color-name {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    /* identical to box height, or 20px */
+
+    /* Greyscale/Grey 400 */
+    color: #9EA3AE;
+    
+  }
+
+  .gr-1 {
+    background-color: #284D57;
+  }
+  .gr-2 {
+    background-color: #EEECE3;
+  }
+  .gr-3 {
+    background-color: #FFF8F2;
+  }
+  .gr-4{
+    background-color: #FFFFFF;
+    border: 2px solid #E5E6EB;
+  }
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 240px);
+    margin: 72px auto;
+    width: 1440px;
+    margin-left: 94px;
+  }
+  .grid-item-2 {
+    position: relative;
+    height: 88px;
+    
+  }
+  .gr-graycale-1 {
+    background-color: #F9FAFB;
+    border-radius: 16px 0px 0px 16px;
+
+  }
+  .gr-graycale-2 {
+    background-color: #F4F4F6;
+
+  }
+  .gr-graycale-3 {
+    background-color:#9EA3AE;
+;
+
+
+  }
+  .gr-graycale-4 {
+    background-color: #D3D5DA;
+
+
+  }
+  .gr-graycale-5 {
+    background-color: #9EA3AE;
+    border-radius: 0px 16px 16px 0px;
+
+  }
+  .gr-graycale-6 {
+    background-color: #6C727F;
+
+
+  }
+  .gr-graycale-7 {
+    background-color: #4D5461;
+
+
+  }
+  .gr-graycale-8 {
+    background-color: #394150;
+
+
+  }
+  .gr-graycale-9 {
+    background-color: #212936;
+
+
+  }
+  .gr-graycale-10 {
+    background-color: #161D21;
+
+
+  }
+  
+  
+  
